@@ -69,7 +69,12 @@
 ## 使用\`\`\`flow 流程内容 \`\`\` ，绘制流程图
 
 ```flow
-	st=>start
+	st=>start: Start
+	op=>operation: 操作
+	io=>inputoutput: 显示输出
+	e=>end
+
+	st->op->io->e
 
 ```
 
