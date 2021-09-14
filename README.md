@@ -41,3 +41,29 @@
 > TREE_01
 >> TREE_02
 >>> TREE_03
+
+
+### 使用\`\`\`语言 代码内容 \`\`\` 格式加入代码块
+
+```c
+	#include <stdio.h>
+	#include <stdlib.h>
+	#include <string.h>
+	//这是一段c代码
+```
+
+```cpp
+	#include <iostream>
+	using namespace std;
+```
+
+```python
+	import 库名
+	这是一段python代码
+```
+
+```bash
+	sudo apt-get install git #安装git命令
+```
+
+
