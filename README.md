@@ -69,7 +69,7 @@
 ## 使用\`\`\`flow 流程内容 \`\`\` ，绘制流程图
 
 ```flow
-	st=>start:START
+	st=>start
 
 ```
 
