@@ -69,12 +69,13 @@
 ## 使用\`\`\`flow 流程内容 \`\`\` ，绘制流程图
 
 ```flow
-st=>start: Start
-op=>operation: 操作
-io=>inputoutput: 显示输出
-e=>end
-
-st->op->io->e
+	st=>start: Start
+	op=>operation: Your Operation
+	cond=>condition: Yes or No
+	e=>end
+	st->op->cond
+	cond(yes)->e
+	cond(no)->op
 
 ```
 
